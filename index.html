@@ -15,7 +15,7 @@
       </div>
 
       
-          <form class="row g-3 " action="#" method="post" target="_parent">
+          <form class="row g-3 " action=# method="post" target="_parent">
             <div class="alert alert-danger" role="alert">
 
               Some fields are mising
@@ -67,7 +67,7 @@
 
             <div class="col-md-3">
               <label for="validationCustom05" class="form-label">Postal Code</label>
-              <input type="text" class="form-control" id="validationCustom05" required>
+              <input type="text" class="form-control" id="Postal Code" maxlength="5" pattern="[0-9]+" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');" / required>
             </div>
           
             <div class="d-flex justify-content-between mb-3">
